@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Clientes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script_cliente.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <h1 class="titulo_clientes">CLIENTES</h1>
+    <a href="index.html" class="home">regresar</a>
+    <h3 class="titulo_3">Ingrese los valores indicados para agregar</h3>
+    <fieldset class="contenedor_cabaña">
+        <legend>Datos del cliente</legend>
+        <table>
+            <tr>
+                <th>ID:</th>
+                <td><input type="number" id="id" placeholder="Id"></td>
+            </tr> 
+            
+            <tr>
+                <th>NOMBRE:</th>
+                <td><input type="text" id="name" placeholder="Name">|</td>
+            </tr>
+
+            <tr>
+                <th>EMAIL:</th>
+                <td><input type="text" id="email" placeholder="Email"></td>
+            </tr>
+
+            <tr>
+                <th>AGE:</th>
+                <td><input type="number" id="age" placeholder="Age"></td>
+            </tr>
+        </table>
+        <br>    
+    </fieldset>
+    <div class="container_clientes">
+        <button onclick="agregar_cliente()" class="boton_clientes">Agregar cliente</button>
+        <button onclick="consultar_cliente()" class="boton_clientes">Consultar clientes</button>
+        <button onclick="actualizar_cliente()" class="boton_clientes">Actualizar</button>
+        <a href="eliminar_cliente.html" class="link_eliminar">Eliminar Cliente</a>
+    </div>
+    <table id="table_class" class="tabla_cabaña">
+        <thead id="titles">
+        </thead>
+        <tbody id="results">
+        </tbody>
+</table>
+</body>
+</html>

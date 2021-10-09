@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Cabañas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script_cabaña.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="titulo_cabañas">CABAÑAS</h1>
+    <a href="index.html" class="home">regresar</a>
+    <h3 class="titulo_3">Ingrese los valores indicados para agregar</h3>
+    <fieldset class="contenedor_cabaña">
+        <legend>Datos del cliente</legend>
+        <table>
+            <tr>
+                <th>ID:</th>
+                <td><input type="number" id="id" placeholder="Id"></td>
+            </tr> 
+            
+            <tr>
+                <th>BRAND:</th>
+                <td><input type="text" id="brand" placeholder="Brand">|</td>
+            </tr>
+
+            <tr>
+                <th>ROOMS:</th>
+                <td><input type="number" id="rooms" placeholder="Rooms"></td>
+            </tr>
+
+            <tr>
+                <th>CATEGORY:</th>
+                <td><input type="number" id="category_id" placeholder="Category"></td>
+            </tr>
+            <tr>
+                <th>NAME:</th>
+                <td><input type="text" id="name" placeholder="Name"></td>
+            </tr>
+        </table>
+        <br>    
+    </fieldset>
+    <div class="container_cabaña">
+        <button onclick="agregar_cabaña()" class="boton_cabaña">Agregar cabaña</button>
+        <button onclick="consultarCabaña()" class="boton_cabaña">Consultar cabañas</button>
+        <button onclick="actualizarCabaña()" class="boton_cabaña">Actualizar cabañas</button>
+        <a href="eliminar_cabaña.html" class="link_eliminar">Eliminar Cabaña</a>
+    </div>
+    <table id="table_class" class="tabla_cabaña">
+            <thead id="titles">
+            </thead>
+            <tbody id="results">
+            </tbody>
+    </table>
+</body>
+</html>

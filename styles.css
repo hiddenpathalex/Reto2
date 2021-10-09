@@ -1,0 +1,140 @@
+body {
+  background-color: darkgrey;
+}
+
+.home {
+  text-align: left;
+  padding-left: 3em;
+  font-size: 20px;
+}
+
+/* Estili pagina principal */
+
+.title {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  margin: 0%;
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contorno_formulario {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5em;
+  background-image: linear-gradient(white, gray);
+}
+
+.link {
+  font-size: 25px;
+  padding: 4em;
+}
+
+/* Estilos para pagina de cabañas */
+
+.contenedor_cabaña{
+    margin-right: 45em;
+    margin-left: 45em;
+    margin-top: 5em;
+}
+
+.titulo_cabañas {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  margin: 0%;
+  background-color: black;
+}
+
+.eliminar_c{
+  text-align: center;
+  color: white;
+  padding: 2em;
+  margin: 0%;
+  background-color: black;
+}
+
+.titulo_2{
+  text-align: center;
+  font-size: 30px;
+}
+
+.titulo_3{
+  text-align: center;
+  font-size: 30px;
+}
+
+.container_cabaña {
+  padding: 5em;
+  text-align: center;
+}
+
+.tabla_cabaña, .titles, .results{
+  margin-bottom: 10em;
+  text-align: left;
+  border-spacing: 20px;
+  border: 1px solid black;
+  margin-left: 40%;
+}
+
+.boton_cabaña {
+  padding: 2em;
+  margin: 1em;
+  background-color: yellowgreen;
+}
+
+.link_eliminar{
+  background-color: yellowgreen;
+  padding: 32px;
+  border: 2px solid black;
+}
+
+/* Estilos pagina clientes */
+
+.titulo_clientes {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  margin: 0%;
+  background-color: black;
+}
+
+.container_clientes {
+  padding: 5em;
+  text-align: center;
+}
+
+.boton_clientes {
+  padding: 2em;
+  margin: 5em;
+  background-color: yellowgreen;
+}
+
+
+
+/* Estilos pagina mensajes */
+
+.titulo_mensajes {
+  text-align: center;
+  color: white;
+  padding: 2em;
+  margin: 0%;
+  background-color: black;
+}
+
+.container_mensajes {
+  padding: 5em;
+  text-align: center;
+}
+
+.boton_mensaje {
+  padding: 2em;
+  margin: 5em;
+  background-color: yellowgreen;
+}

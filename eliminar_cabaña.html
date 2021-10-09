@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Eliminar</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script_cabaña.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="eliminar_c">Eliminar Cabaña</h1>
+    <a href="cabañas.html" class="home">regresar</a>
+    <h2 class="titulo_2">Ingrese el ID a eliminar</h2>
+    <fieldset class="contenedor_cabaña">
+        <legend>Datos del cliente</legend>
+        <table>
+            <tr>
+                <th>ID:</th>
+                <td><input type="number" id="id" placeholder="Id"></td>
+            </tr> 
+        </table>
+        <br>    
+    </fieldset>
+    <div class="container_cabaña">
+        <button onclick="eliminarCabaña()" class="boton_cabaña">Eliminar</button>
+        <button onclick="consultarCabaña()" class="boton_cabaña">Consultar cabañas</button>
+    </div>
+    <table id="table_class" class="tabla_cabaña">
+        <thead id="titles">
+        </thead>
+        <tbody id="results">
+        </tbody>
+</table>
+</body>
+</html>
